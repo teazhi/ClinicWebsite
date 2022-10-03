@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.taskbar {
+    position: fixed;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+}
+.taskbarlogo {
+    position: fixed;
+    left: 80px;
+    font-size: 25px;
+}
+.homebtn {
+    position: relative;
+    left: 720px;
+    height: 80px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s;
+}
+
+.aboutbtn {
+    position: relative;
+    left: 720px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s;
+}
+.gallerybtn {
+    position: relative;
+    left: 720px;
+    height: 80px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s;
+}
+.providersbtn {
+    position: relative;
+    left: 720px;
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s;
+}
+.contactbtn {
+    position: relative;
+    left: 720px;
+    height: 80px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s;
+}
+.faqbtn {
+    position: relative;
+    left: 720px;
+    height: 80px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s;
+}
+#hovereff:hover {
+    cursor: pointer;
+    background-color: rgb(177, 177, 177);
+}
+.bookonline {
+    position: fixed;
+    background-color: rgb(6, 12, 164);
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 15px;
+    left: 1500px;
+    padding: 15px;
+    border-radius: 3px;
+    transition: background-color 0.5s;
+}
+.bookonline:hover {
+    background-color: rgb(59, 66, 255);
+    cursor: pointer;
+}
+.bookonlineform {
+    position: fixed;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    height: 700px;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    box-shadow:0 0 0 2000px rgba(0,0,0,0.5);
+}
+.formcontainer {
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.stop-scrolling {
+    overflow: hidden;
+}
+
+#section1 {
+    position: relative;
+    height: 940px;
+    width: 100%;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logo {
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    height: 150px;
+    width: 500px;
+    top: 520px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+}
+#titletext {
+    position: relative;
+    text-align: center;
+    top: 615px;
+    font-size: 25px;
+    font-weight: 500;
+    color: whitesmoke;
+    text-shadow: 4px 2px 5px rgba(0,0,0,0.37);
+    letter-spacing: 1px;
+}
+.bookonline2 {
+    position: absolute;
+    background-color: rgb(6, 12, 164);
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 3px;
+    top: 715px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.5s;
+}
+.bookonline2:hover {
+    background-color: rgb(59, 66, 255);
+    cursor: pointer;
+}
+
+#section2 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 1200px;
+    width: 100%;
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+}
+
+#sec2text {
+    position: relative;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 100px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+#section3 {
+    position: relative;
+    background-color: rgb(237, 237, 237);
+    height: 600px;
+    width: 100%;
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+}
+#meetourdrs {
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    top: 50px;
+    text-shadow: 4px 2px 5px rgba(0,0,0,0.37);
+}
+.doctor1 {
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    top: 280px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.75);
+    height: 350px;
+    width: 380px;
+    text-align: center;
+}
+.doctor1:hover {
+    cursor: pointer;
+}
+.doctor2 {
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    top: 147px;
+    left: 360px;
+    box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.75);
+    height: 350px;
+    width: 380px;
+    text-align: center;
+}
+.doctor2:hover {
+    cursor: pointer;
+}
+.doctor3 {
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    top: 147px;
+    left: 1180px;
+    box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.75);
+    height: 350px;
+    width: 380px;
+    text-align: center;
+}
+.doctor3:hover {
+    cursor: pointer;
+}
+
+
+
+
+.footer {
+    position: relative;
+    background-color: rgb(59, 66, 255);
+    height: 200px;
+    width: 100%;
+    padding: 50px;
+
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+}
+.privacypolicy {
+    position: absolute;
+    left: 775px;
+}
+.termsandconditions {
+    position: absolute;
+    left: 895px;
+}
+.contactusfooterbtn {
+    position: absolute;
+    left: 1065px;
+}
+.addressfooter {
+    position: absolute;
+    top: 95px;
+    left: 890px;
+}
+#txtfont {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+}
+.signature {
+    position: absolute;
+    bottom: 50px;
+    left: 895px;
+}
